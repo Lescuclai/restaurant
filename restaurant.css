@@ -57,7 +57,7 @@ header{
 #mainSection{
     width:100%;
     height:2500px;
-    background-color: rgb(144, 180, 247);
+    background-color:white;
 }
 #plats{
     width:100%;
@@ -77,11 +77,12 @@ header{
 #chef {
     width:100%;
     height:1000px;
-    background-color: #C2DE82;
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url("2207338.jpg")
 }
 #leRestaurant{
     display: flex;
@@ -90,7 +91,8 @@ header{
     height:1500px;
     justify-content: center;
     align-items: center;
-    background-image: url("2207338.jpg")
+
+   
 }
 article h2{
     text-align: center;
@@ -101,8 +103,7 @@ article h2{
 
 .sousRestau{
     width: 60%;
-    background-color: rgb(59, 87, 0);
-    color:white;
+    color:black;
 }
 .souRestauGauche .souRestauDroite{
     box-sizing: border-box;
@@ -111,7 +112,20 @@ article h2{
     width: 45%;
     float: right;
     padding-right: 20px;
+    -webkit-transition: all 1s ease; 
+    -moz-transition: all 1s ease; 
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease; 
+    transition: all 1s ease;
 
+}
+.souRestauGauche img:hover {
+    
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15); 
+    -ms-transform:scale(1.15); 
+    -o-transform:scale(1.15); 
+    transform:scale(1.15);
 }
 .souRestauGauche p {
     float: left;
@@ -124,7 +138,20 @@ article h2{
     width: 45%;
     float: left;
     padding-left: 20px;
+    -webkit-transition: all 1s ease; 
+    -moz-transition: all 1s ease; 
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease; 
+    transition: all 1s ease;
+}
+
+.souRestauDroite img:hover {
     
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15); 
+    -ms-transform:scale(1.15); 
+    -o-transform:scale(1.15); 
+    transform:scale(1.15);
 }
 .souRestauDroite p{
     float: right;
@@ -196,3 +223,19 @@ header p{
     background-image: url("karim-manjra-xWtkhoLENDY-unsplash.jpg");
 }
 
+.image img {
+    
+    -webkit-transition: all 1s ease; 
+    -moz-transition: all 1s ease; 
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease; 
+    transition: all 1s ease;
+    }
+.image:hover img {
+    
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25); 
+    -ms-transform:scale(1.25); 
+    -o-transform:scale(1.25); 
+    transform:scale(1.25);
+    }
