@@ -56,7 +56,7 @@ header{
 }
 #mainSection{
     width:100%;
-    height:2000px;
+    height:2500px;
     background-color: rgb(144, 180, 247);
 }
 #plats{
@@ -76,7 +76,8 @@ header{
 }
 #chef {
     width:100%;
-    height:400px;
+    height:600px;
+    background-color: #C2DE82;
 }
 #leRestaurant{
     display: flex;
@@ -84,7 +85,8 @@ header{
     width:100%;
     height:1500px;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    background-image: url("2207338.jpg")
 }
 article h2{
     text-align: center;
@@ -94,7 +96,8 @@ article h2{
 
 .sousRestau{
     width: 60%;
-    background-color: aqua;
+    background-color: rgb(59, 87, 0);
+    color:white;
 }
 /* .sousRestau p{
     width: 60%;
@@ -157,3 +160,15 @@ h1{
 header p{
     font-size: 25px;
 }
+#chef{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#chef img{
+    border-radius: 200px;
+    width: 25%;
+
+}
+
