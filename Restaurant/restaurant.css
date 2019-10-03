@@ -56,7 +56,7 @@ header{
 }
 #mainSection{
     width:100%;
-    height:1150px;
+    height:2000px;
     background-color: rgb(144, 180, 247);
 }
 #plats{
@@ -80,7 +80,7 @@ header{
 }
 #leRestaurant{
     width:100%;
-    height:800px;
+    height:1500px;
 }
 article h2{
     text-align: center;
@@ -90,12 +90,29 @@ article h2{
 .sousRestau{
     display: flex;
     flex-direction: column;
-    text-align: center;
     padding: 20px;
     margin-bottom: 80px;
 }
-.sousRestauGauche{
-    
+.sousRestau p{
+    width: 60%;
+}
+.souRestauGauche img{
+    width: 35%;
+}
+.souRestauGauche figure{
+    float: left;
+}
+.souRestauGauche p{
+    float: left;
+}
+.souRestauDroite figure{
+    float: right;
+}
+.souRestauDroite p{
+    float: right;
+}
+.souRestauDroite img{
+    width: 35%;
 }
 h2{
     font-size: 22px;
