@@ -79,41 +79,55 @@ header{
     height:400px;
 }
 #leRestaurant{
+    display: flex;
+    flex-direction: column;
     width:100%;
     height:1500px;
+    justify-content: center;
+    align-items: center
 }
 article h2{
     text-align: center;
     padding: 20px;
     margin-bottom: 80px;
 }
+
 .sousRestau{
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    margin-bottom: 80px;
-}
-.sousRestau p{
     width: 60%;
+    background-color: aqua;
+}
+/* .sousRestau p{
+    width: 60%;
+} */
+
+.souRestauGauche .souRestauDroite{
+    box-sizing: border-box;
 }
 .souRestauGauche img{
-    width: 35%;
-}
-.souRestauGauche figure{
-    float: left;
+    width: 45%;
+    float: right;
+    padding-right: 20px;
+
 }
 .souRestauGauche p{
     float: left;
+    height: 400px;
+    width: 50%;
+    padding-left: 20px;
 }
-.souRestauDroite figure{
-    float: right;
+.souRestauDroite img{
+    width: 45%;
+    float: left;
+    padding-left: 20px;
+    
 }
 .souRestauDroite p{
     float: right;
+    height: 400px;
+    width: 50%;
+    padding-right: 20px;
 }
-.souRestauDroite img{
-    width: 35%;
-}
+
 h2{
     font-size: 22px;
     font-weight: bold;
