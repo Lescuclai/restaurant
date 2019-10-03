@@ -1,0 +1,82 @@
+/* css Plats */
+#plats{
+    background-color: #ACC355;
+    height: 200px;
+}
+/* END css Plats */
+
+
+/* css Contact Flex */
+#contact{
+    background-color: #FDFFB2;
+    height: 300px;
+    font-family: 'Montserrat', sans-serif;
+}
+* {
+    box-sizing: border-box; 
+   }
+   .notreForm {
+        display: flex;
+        padding: 1.8em;
+   }
+   .message {
+        display: flex;
+        flex-direction: column;
+        /* order: 1; */
+        margin-bottom: 1em;
+   }
+   .message > textarea {
+        flex: 1; 
+        min-width: 18em;
+        border-radius: 10px;
+    
+   }
+   .contact {
+        flex: 1; 
+        margin-right: 2em; 
+
+   }
+   .contact input {
+       width: 100%;
+   }
+   .contact input, .contact button {
+      padding: 1em;
+      margin-bottom: 1em;
+      border-radius: 10px;
+   }
+   .contact button {
+      background: #FDAD00;
+      color: black
+    
+   }
+/* END css Contact Flex */
+
+/* css footer */
+footer {
+     width: 100%;
+     background-color: #66871F;
+     color: 805F58;
+     /* font-family: 'Lobster', cursive; */
+     font-family: 'Montserrat', sans-serif;
+     text-align: center;
+     line-height: 50px;
+ }
+#ravis{
+    font-style: italic;
+}
+ #merci{
+    font-family: 'Lobster', cursive;
+    font-size: 4em;
+ }
+ #made{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em; 
+ }
+ .social{
+     height: 50px;
+     width: 50px;
+     background-color: #FDFFB2;
+     display: inline-block;
+     margin-bottom: 20px;
+ }
+ /* END css footer */
