@@ -2,19 +2,50 @@
 #plats{
     background-color: #ACC355;
     height: 200px;
+    
+}
+#plats h1{
+    font-family: 'Lobster', cursive;
+    font-size: 4em;
+    padding-top: 20px;
+    padding-left: 10px;
 }
 /* END css Plats */
 
 
 /* css Contact Flex */
-#contact{
-    background-color: #FDFFB2;
-    height: 300px;
-    font-family: 'Montserrat', sans-serif;
-}
 * {
     box-sizing: border-box; 
    }
+#container-flex{
+    display: flex;
+    background-color: #FDFFB2;
+    height: 300px;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+#localisation{
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color: #FDAD00;
+
+    flex: 0 0 50%;
+
+
+}
+#contact-form{
+    margin-top: 15px;
+    margin-left: 15px;
+
+    flex: 0 0 50%;
+}
+#contact-form p{
+    margin-bottom: 10px;
+}
+.contact{
+    
+}
+/* 
    .notreForm {
         display: flex;
         padding: 1.8em;
@@ -22,13 +53,14 @@
    .message {
         display: flex;
         flex-direction: column;
-        /* order: 1; */
+        order: 1;
         margin-bottom: 1em;
    }
    .message > textarea {
         flex: 1; 
         min-width: 18em;
         border-radius: 10px;
+       
     
    }
    .contact {
@@ -48,7 +80,7 @@
       background: #FDAD00;
       color: black
     
-   }
+   } */
 /* END css Contact Flex */
 
 /* css footer */
