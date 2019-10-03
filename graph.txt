@@ -4,10 +4,10 @@ font-family: 'Lobster', cursive;
 
 font-family: 'Montserrat', sans-serif;
 
-Couleurs: (https://color.adobe.com/ .... bio1)
+Couleurs: (https://color.adobe.com/ .... Vegan Friendly)
 
-#82A544
-#465902
-#BFDD04
-#F28E1A
-#F47B5E
+#3C5700
+#66871F
+#ACC355
+#FDFFB2
+#FDAD00
